@@ -272,7 +272,7 @@ class OracleGrammar extends Grammar
             return $value;
         }
 
-        $value = Str::upper($value);
+        //$value = Str::upper($value);
 
         return '"'.str_replace('"', '""', $value).'"';
     }
